@@ -8,12 +8,14 @@ This project is an API built with Node.js, Express, TypeScript, and PostgreSQL, 
 - Docker Compose
 - Node.js
 - PostgreSQL
+- Git
+- TypeScript
 
 ## Installation and Setup
 
 Follow these steps to get the project up and running:
 
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine. `git clone https://github.com/Nanomarquez/searchmas-challenge.git`
 2. Open a terminal in the project directory.
 3. Run `docker-compose up --build` to start the Docker services.
 4. Run `npm install` to install the project dependencies.
