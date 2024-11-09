@@ -85,7 +85,6 @@ export const exportToCSV = async (req: Request, res: Response) => {
       ],
     });
 
-    // Cambiamos `map` por `for...of` para usar `await` sin problemas
     const data = [];
     for (const user of users) {
       const address = await Address.findOne({
