@@ -4,3 +4,11 @@ jspm_packages/
 
 # dotenv environment variable files
 .env
+
+# TypeScript incremental build cache
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
